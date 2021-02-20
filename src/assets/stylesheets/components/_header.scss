@@ -1,0 +1,47 @@
+header {
+
+  width: 100%;
+  color: $white;
+  background-color: $blue-grey-900;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    height: 2.5em;
+    line-height: 2.5em;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin: 0 -.7em;
+    padding: 0;
+  }
+
+  li {
+    display: block;
+  }
+
+  a {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $blue-grey-400;
+    text-decoration: none;
+    padding: 0 .7em;
+
+    svg {
+      margin-right: .4em;
+    }
+
+  }
+
+  h1 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+  }
+
+}
